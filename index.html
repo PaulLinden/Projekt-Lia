@@ -4,14 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Css/mainStyleSheet.css">
+    <script src="/js/index-Javascript.js" defer></script>
     <title>Projekt</title>
 </head>
+<!-- Har skapat själva "skelettet" i html här. Finns även en css-fil men den är väldigt basic just nu. Har även en index-js där vi kan lägga till functioner efterhand. Dropdown är taget direkt från W3S så har bara gjort mindre förändringar. Kommer givitvis förbättra det när tid finns" -->
 <body>
     
 <header>
 
-    <nav>
+    <h1>Placeholder</h1>
 
+    <nav>
+        
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">
+            <div class="hamburger"></div>
+            <div class="hamburger"></div>
+            <div class="hamburger"></div>
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="#lia-tjänsten">LIA-tjänsten</a>
+              <a href="#workshop">Workshop</a>
+              <a href="#omOss">Om oss</a>
+              <a href="#kontakt">Kontakt</a>
+            </div>
+          </div>
+          
     </nav>
     
 </header>
@@ -19,6 +38,12 @@
 <main>
 
     <article>
+        
+        <h2>Detta är rubriken</h2>
+
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam obcaecati inventore laboriosam saepe, nihil praesentium corporis. Alias sit modi illum autem dolore. Sit deserunt incidunt ipsa illum amet consequatur error.
+        </p>
 
     </article>
 
@@ -33,4 +58,5 @@
 </footer>
 
 </body>
+
 </html>
