@@ -107,6 +107,8 @@ footer {
 .paragraph {
   padding: 25px;
   margin-left: 135px;
+  border:   10px black solid;
+  border-style: double;
 }
 p {
   text-align: center;
