@@ -5,17 +5,6 @@
   border: 0;
 }
 
-.title {
-  font-weight: bold;
-}
-p {
-  text-align: center;
-  color: black;
-  width: 500px;
-  margin: auto;
-  padding: 10px;
-}
-
 body {
   height: 100vh;
 }
@@ -27,7 +16,7 @@ header {
   height: 15%;
 }
 
-.heading{
+.heading {
   align-self: center;
   margin-left: 550px;
 }
@@ -103,4 +92,26 @@ footer {
 
 .show {
   display: block;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.paragraph-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.paragraph {
+  padding: 25px;
+  margin-left: 135px;
+}
+p {
+  text-align: center;
+  color: black;
+  width: 500px;
+  margin: auto;
+  padding: 10px;
 }
