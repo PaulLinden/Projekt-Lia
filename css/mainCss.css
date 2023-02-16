@@ -5,6 +5,17 @@
   border: 0;
 }
 
+.title {
+  font-weight: bold;
+}
+p {
+  text-align: center;
+  color: black;
+  width: 500px;
+  margin: auto;
+  padding: 10px;
+}
+
 body {
   height: 100vh;
 }
@@ -16,12 +27,13 @@ header {
   height: 15%;
 }
 
-h1{
+.heading{
   align-self: center;
+  margin-left: 550px;
 }
 
-h2{
-margin-bottom: 20px;
+h2 {
+  margin-bottom: 20px;
 }
 
 main {
@@ -29,7 +41,7 @@ main {
   height: 70%;
 }
 
-article{
+article {
   height: 100%;
   width: 70%;
   border: green solid 2px;
@@ -49,7 +61,7 @@ footer {
 }
 
 .dropbtn {
-  background-color: #3498DB;
+  background-color: #3498db;
   color: white;
   padding: 6px;
   border: none;
@@ -59,7 +71,7 @@ footer {
 
 .dropbtn:hover,
 .dropbtn:focus {
-  background-color: #2980B9;
+  background-color: #2980b9;
 }
 
 .dropdown {
