@@ -42,9 +42,8 @@ main {
 }
 
 article {
-  border: 2px red solid;
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: column nowrap;
 
   height: 100%;
   width: 70%;
