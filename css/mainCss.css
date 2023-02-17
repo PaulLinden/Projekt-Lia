@@ -71,7 +71,7 @@ footer {
 
 .dropbtn {
   background-color: transparent;
-  color: white;
+  /* color: white; */
   padding: 6px;
   border: none;
   cursor: pointer;
@@ -108,4 +108,8 @@ footer {
 
 .dropdown a:hover {
   background-color: #ddd;
+}
+
+.show {
+  display: block;
 }
