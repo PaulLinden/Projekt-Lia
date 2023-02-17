@@ -18,6 +18,13 @@ header {
   height: 12%;
 }
 
+#list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
 .heading {
   align-self: center;
   margin-left: 1rem;
@@ -35,6 +42,10 @@ main {
 }
 
 article {
+  border: 2px red solid;
+  display: flex;
+  flex-flow: row nowrap;
+
   height: 100%;
   width: 70%;
   margin-top: 2rem;
