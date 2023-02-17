@@ -7,10 +7,12 @@
 
 body {
   height: 100vh;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(241, 241, 241, 1) 0%, rgba(227, 232, 140, 1) 100%);
 }
 
 header {
-  border: solid black 2px;
+  background-color: rgba(0, 0, 0, 0.081);
   display: flex;
   justify-content: space-between;
   height: 12%;
@@ -26,8 +28,7 @@ h2 {
 }
 
 main {
-  border: solid blue 4px;
-  height: 70%;
+  height: 80%;
   display: flex;
   flex-flow: column wrap;
   text-align: center;
@@ -37,10 +38,11 @@ article {
   height: 100%;
   width: 70%;
   margin-top: 2rem;
+  border-right: solid black;
 }
 
-aside{
-  width:30%;
+aside {
+  width: 30%;
   padding: 2rem;
 }
 
@@ -54,11 +56,12 @@ p {
 }
 
 footer {
-  border: solid violet 2px;
+  border-top: solid black;
   height: 10%;
   width: 100%;
   position: fixed;
   bottom: 0;
+  background-color: rgba(56, 56, 56, 0.699);
 }
 
 /* ↓↓ Dropdown menu ↓↓ */
