@@ -18,7 +18,7 @@ header {
 
 .heading {
   align-self: center;
-  margin-left: 550px;
+  margin-left: 1rem;
 }
 
 h2 {
@@ -28,12 +28,24 @@ h2 {
 main {
   border: solid blue 4px;
   height: 70%;
+  display: flex;
+  flex-flow: column wrap;
+  text-align: center;
 }
 
 article {
   height: 100%;
   width: 70%;
   border: green solid 2px;
+}
+
+aside{
+  width:30%;
+  padding: 1rem;
+}
+
+p {
+  padding: 10px;
 }
 
 footer {
@@ -113,10 +125,5 @@ footer {
   border:   10px black solid;
   border-style: double;
 }
-p {
-  text-align: center;
-  color: black;
-  width: 500px;
-  margin: auto;
-  padding: 10px;
-}
+
+
