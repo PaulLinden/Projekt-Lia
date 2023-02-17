@@ -39,6 +39,9 @@ article {
 footer {
   border: solid violet 2px;
   height: 10%;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
 }
 
 /* ↓↓ Dropdown menu ↓↓ */
