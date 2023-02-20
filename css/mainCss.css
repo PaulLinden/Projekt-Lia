@@ -46,6 +46,10 @@ aside {
   padding: 2rem;
 }
 
+aside div{
+  /* background-color: rgba(0, 0, 0, 0.229); */
+}
+
 p {
   padding: 10px;
 }
