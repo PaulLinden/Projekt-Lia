@@ -1,29 +1,28 @@
 
 let button = document.querySelector('.dropbtn');
 
+menuStatus = 0;
+
 //Eventlistner that opens menu when clicking on button
 button.addEventListener("click", (event) => {
-  console.log('open');
-  document.getElementById("myDropdown").classList.toggle("show");
+  if(menuStatus == 0){
+    console.log('open');
+    document.getElementById("myDropdown").classList.toggle("show");
+    menuStatus++;
+  }else{
+    console.log("close");
+    document.getElementById('myDropdown').classList.remove('show');
+    menuStatus = 0;
+  }
 
 });
 
 
-window.onclick = function(event) {
-  
-  if (!event.target.matches('.dropbtn')) {
-    console.log('close');
-    
-    let dropdowns = document.getElementsByClassName("dropdown-content");
-    let i;
-      
-    for (i = 0; i < dropdowns.length; i++) {
-        
-      let openDropdown = dropdowns[i];
-      
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
+window.onclick = function (event) {
+
+  if (!event.target.matches('.dropbtn') && menuStatus > 0) {
+    console.log("close");
+    document.getElementById('myDropdown').classList.remove('show');
+    menuStatus = 0;
   }
 }
