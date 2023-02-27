@@ -56,10 +56,6 @@ aside {
   padding: 2rem;
 }
 
-p {
-  padding: 10px;
-}
-
 .scrollable-content {
   max-height: 60vh;
   overflow: auto;
@@ -128,4 +124,35 @@ footer div{
 
 .show {
   display: block;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.paragraph-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.paragraph {
+  padding: 25px;
+  margin-left: 135px;
+  border: 5px black solid;
+  border-style: dotted;
+}
+p {
+  text-align: center;
+  color: black;
+  width: 500px;
+  margin: auto;
+  padding: 10px;
+}
+
+.liDiv{
+  margin: auto;
+  text-align: left;
+  width: 50%;
+  border: 2px red solid;
 }
