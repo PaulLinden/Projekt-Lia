@@ -20,10 +20,8 @@ header {
 }
 
 header img{
-  position: fixed;
   width: 230px;
   height: 112px;
-  left: 53rem;
 }
 
 #list{
@@ -59,7 +57,7 @@ article {
   border-right: solid black;
 }
 
-#articleList{
+#articleCompanyList{
   height: 50%;
 }
 
