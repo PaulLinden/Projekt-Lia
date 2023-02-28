@@ -19,9 +19,15 @@ header {
   height: 12%;
 }
 
+header h1{
+  width: 500px;
+}
+
 header img{
+  position: relative;
   width: 230px;
   height: 112px;
+  right: 190px;
 }
 
 #list{
