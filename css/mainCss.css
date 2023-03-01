@@ -12,10 +12,18 @@ body {
 }
 
 header {
-  background-color: rgba(0, 0, 0, 0.052);
+  background-color: rgba(83, 53, 73, 1);
   display: flex;
   justify-content: space-between;
   height: 12%;
+}
+
+header h1{
+  width: 500px;
+}
+
+header img{
+  height: 100%;
 }
 
 #list{
@@ -26,8 +34,10 @@ header {
 }
 
 .heading {
-  align-self: center;
-  margin-left: 1rem;
+  text-align: center;
+  margin: auto;
+  margin-top: 1rem;
+  width: 50%;
 }
 
 h2 {
@@ -51,13 +61,19 @@ article {
   border-right: solid black;
 }
 
+#articleCompanyList{
+  height: 70%;
+  width: 100%;
+}
+
+iframe{
+  height: 100%;
+  width: 100%;
+}
+
 aside {
   width: 30%;
   padding: 2rem;
-}
-
-p {
-  padding: 10px;
 }
 
 .scrollable-content {
@@ -67,32 +83,40 @@ p {
 
 footer {
   border-top: solid black;
-  height: 8rem;
+  height: 5rem;
   width: 100%;
-  position: fixed;
+  position: sticky;
   bottom: 0;
   background-color: rgb(80, 82, 64);
   color: white;
   text-align: center;
+  margin-top: 1rem;
 }
 
 footer div{
+  padding-top: 3px;
   width: 100%;
   height: 2rem;
   background-color: black;
+}
+
+footer div img{
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+  cursor: pointer;
 }
 
 /* ↓↓ Dropdown menu ↓↓ */
 .hamburger {
   width: 35px;
   height: 5px;
-  background-color: black;
+  background-color: #f6b042;
   margin: 6px 0;
 }
 
 .dropbtnCss {
   background-color: transparent;
-  /* color: white; */
   padding: 6px;
   border: none;
   cursor: pointer;
@@ -128,4 +152,55 @@ footer div{
 
 .show {
   display: block;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.paragraph-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  justify-content: center;
+  gap: 20px 80px;
+}
+
+.paragraph {
+  padding: 25px;
+  border: 5px black dotted;
+}
+p {
+  text-align: center;
+  color: black;
+  width: 500px;
+  margin: auto;
+  padding: 10px;
+}
+
+.liDiv{
+  position: relative;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: left;
+  width: 30%;
+  left: 10px;
+  font-weight: bold;
+  line-height: 19px;
+}
+
+#groupPicture{
+  display: block;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#omOssText{
+  margin: auto;
+  margin-top: 20px;
+  padding-top: 20px;
+  border: black 1px solid;
 }
